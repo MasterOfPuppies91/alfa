@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="alfa_tests">
+    <test name="alfa_test">
+        <classes>
+            <class name="tests.login.FieldsPresenceTest"/>
+            <class name="tests.login.PasswordMaskedTest"/>
+            <class name="tests.login.LoginLengthTest"/>
+            <class name="tests.login.LoginSuccessTest"/>
+            <class name="tests.login.LoginUnacceptedSymbolsTest"/>
+        </classes>
+    </test>
+</suite>
